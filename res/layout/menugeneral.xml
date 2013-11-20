@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/edit"
+        android:title="Editar">
+
+        <menu>
+
+            <item
+                android:id="@+id/editar"
+                android:title="Recortar fragmento señal"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/filtro"
+        android:title="Filtrar">
+
+        <menu>
+
+            <item
+                android:id="@+id/filtrom"
+                android:title="Aplicar filtro manual"/>
+
+            <item
+                android:id="@+id/filtroau"
+                android:title="Aplicar filtro automático"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/operaciones"
+        android:title="Cálculos">
+
+        <menu>
+
+            <item
+                android:id="@+id/poincare"
+                android:title="Gráfica de Poincaré"/>
+
+            <item
+                android:id="@+id/calculostemporales"
+                android:title="Cálculo de parámetros temporales"/>
+
+            <item
+                android:id="@+id/interpolacion"
+                android:title="Interpolar señal"/>
+
+            <item
+                android:id="@+id/calculosfrecuenciales"
+                android:title="Cálculo de parámetros frecuenciales"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exportar"
+        android:title="Exportar">
+
+        <menu>
+
+            <item
+                android:id="@+id/exportarjpeg"
+                android:title="Exportar en JPEG"/>
+
+            <item
+                android:id="@+id/exportarpng"
+                android:title="Exportar en PNG"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/rest"
+        android:title="Restaurar">
+
+        <menu>
+
+            <item
+                android:id="@+id/restaurarimg"
+                android:title="Restaurar señal a posición inicial"/>
+
+            <item
+                android:id="@+id/restaurarsen"
+                android:title="Restaurar señal a estado inicial"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/ajustes"
+        android:title="Ajustes">
+
+        <group>
+
+            <item
+                android:id="@+id/color"
+                android:title="Ajustes color señal">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/verdel"
+                        android:title="Verde"/>
+
+                    <item
+                        android:id="@+id/azull"
+                        android:title="Azul"/>
+
+                    <item
+                        android:id="@+id/rojol"
+                        android:title="Rojo"/>
+
+                    <item
+                        android:id="@+id/amarillol"
+                        android:title="Amarillo"/>
+
+                    <item
+                        android:id="@+id/rosal"
+                        android:title="Rosa"/>
+
+                    <item
+                        android:id="@+id/blancol"
+                        android:title="Blanco"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/colorpuntos"
+                android:title="Ajustes color puntos señal">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/verdep"
+                        android:title="Verde"/>
+
+                    <item
+                        android:id="@+id/azulp"
+                        android:title="Azul"/>
+
+                    <item
+                        android:id="@+id/rojop"
+                        android:title="Rojo"/>
+
+                    <item
+                        android:id="@+id/amarillop"
+                        android:title="Amarillo"/>
+
+                    <item
+                        android:id="@+id/rosap"
+                        android:title="Rosa"/>
+
+                    <item
+                        android:id="@+id/blancop"
+                        android:title="Blanco"/>
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/puntos"
+                android:title="Desactivar puntos señal"/>
+        </group>
+    </item>
+
+</menu>

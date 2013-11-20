@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Variand</string>
+    <string name="dropbox">Sincronizar con Dropbox</string>
+    <string name="representar">Representar fichero</string>
+    <string name="subir">Subir archivo</string>
+    <string name="descargar">Descargar archivo</string>
+    <string name="subidocorrecto">El archivo se ha subido correctamente a Dropbox</string>
+    <string name="descargadocorrecto">El archivo se ha descargado correctamente desde Dropbox</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="permiso">Lo sentimos, no tiene permiso para acceder a la carpeta ghrv</string>
+    <string name="sdcard">Gestionar SDCard</string>
+    <string name="subidoerroneo">Se ha producido un error al subir el archivo a Dropbox</string>
+    <string name="descargadoerroneo">Se ha producido un error al descargar el archivo desde Dropbox</string>
+    <string name="botonleer">Leer</string>
+    <string name="botonrepresentar">Representar</string>
+    <string name="titulo">VARIAND</string>
+    <string name="subirfichero">SELECCIONE EL FICHERO QUE DESEA SUBIR</string>
+    <string name="representarfichero">SELECCIONE EL FICHERO QUE DESEA REPRESENTAR</string>
+    <string name="bajarfichero">SELECCIONE EL FICHERO QUE DESEA DESCARGAR</string>
+    <string name="contenidofichero">CONTENIDO DEL FICHERO</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="gestionsdcard">GESTIÓN DE LA SDCARD</string>
+    <string name="valores">Introduzca los valores mínimo y máximo que desea permitir en la señal</string>
+    <string name="minimo">Insertar valor mínimo</string>
+    <string name="maximo">Insertar valor máximo</string>
+    <string name="aplicar">Aplicar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="exportar">Introduzca el nombre con el que desea que se exporte la imagen</string>
+    <string name="nombre">Insertar nombre</string>
+    <string name="rango">INTRODUZCA EL RANGO DE SEGUNDOS QUE DESEA ELIMINAR</string>
+    <string name="desde">DESDE</string>
+    <string name="hasta">HASTA</string>
+    <string name="accion">SELECCIONE LA ACCIÓN QUE DESEA REALIZAR</string>
+    <string name="nuevonombre">Introduzca el nuevo nombre</string>
+    <string name="calcular">Calcular</string>
+    <string name="parametros">Seleccione los parámetros que desea calcular </string>
+    <string name="frames">Seleccione el tamaño de los frames en segundos</string>
+
+</resources>

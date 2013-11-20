@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EAEA9D"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="580dp"
+        android:layout_height="580dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:gravity="center_horizontal">
+
+        <com.androidplot.xy.XYPlot
+            android:id="@+id/plotPoincare"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            title="Gráfica de Poincaré"
+            android:background="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

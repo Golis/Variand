@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/exportar"
+        android:title="Exportar">
+
+        <menu>
+
+            <item
+                android:id="@+id/exportarjpeg"
+                android:title="Exportar en JPEG"/>
+
+            <item
+                android:id="@+id/exportarpng"
+                android:title="Exportar en PNG"/>
+        </menu>
+    </item>
+
+</menu>
