@@ -9,7 +9,7 @@ by Jason Costello, @jsncostello
 MeyerWeb Reset
 *******************************************************************************/
 
-html, body, div, span, applet, object, iframe,
+html, body,  span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -26,7 +26,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -34,6 +33,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 
 .fltrt {  
 	float: right;
@@ -46,6 +46,16 @@ footer, header, hgroup, menu, nav, section {
 	height:0;
 	font-size: 1px;
 	line-height: 0px;
+}
+
+.justo{
+width:100px!important
+color:#FFF!important;
+}
+
+
+#derecha{
+margin-left:400px;!important
 }
 
 ol, ul {
@@ -74,7 +84,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
@@ -83,8 +93,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  color:#FFF;
   font-size: 36px;
   font-weight: 700;
+  margin-top:30px;!important
+  width:50px;!important
 }
 
 h2 {
