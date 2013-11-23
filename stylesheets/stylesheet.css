@@ -35,6 +35,19 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+.fltrt {  
+	float: right;
+}
+.fltlft { 
+	float: left;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
 ol, ul {
   list-style: none;
 }
