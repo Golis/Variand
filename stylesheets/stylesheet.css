@@ -53,7 +53,6 @@ width:100px!important
 color:#FFF!important;
 }
 
-
 #derecha{
 margin-left:310px;!important
 }
@@ -76,8 +75,8 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#373737;
-  background: #212121;
+  color:#212121;
+  background: #57799c;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -340,14 +339,14 @@ Full-Width Styles
   width: 210px;
   z-index: 10;
   bottom: -40px;
-  right: 0;
+  left: 20;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
 .zip_download_link {
   display: block;
-  float: right;
+  float: left;
   width: 90px;
   height:70px;
   text-indent: -5000px;
@@ -357,7 +356,7 @@ Full-Width Styles
 
 .tar_download_link {
   display: block;
-  float: right;
+  float: left;
   width: 90px;
   height:70px;
   text-indent: -5000px;
@@ -375,7 +374,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #e7ebf6;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -385,7 +384,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #57799c;
 }
 
 
@@ -443,3 +442,8 @@ Small Device Styles
   }
 
 }
+
+
+
+
+
